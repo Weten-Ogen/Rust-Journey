@@ -21,7 +21,7 @@ struct Config {
 
 fn get_args(args: &[String]) -> Config  {
     let query = args[1].clone();
-    let filename = args[2].clone();
+    let filename = vargs[2].clone();
     Config { query, filename}
 }
 
